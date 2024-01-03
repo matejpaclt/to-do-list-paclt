@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>To-do List</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Task</th>
+    <th>Done</th>
+    <th>Remove</th>
+  </tr>
+  </thead>
+  <tbody id="todoList">
+
+  </tbody>
+</table>
+
+<div>
+  <input type="text" id="taskInput" placeholder="Enter task...">
+  <button id="addItemBtn">Add Item</button>
+  <button id="editToggleBtn" class="editBtn">Edit Tasks</button>
+  <label for="filterDropdown">Filter: </label>
+  <select id="filterDropdown">
+    <option value="all">All</option>
+    <option value="undone">Undone</option>
+    <option value="done">Done</option>
+  </select>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
